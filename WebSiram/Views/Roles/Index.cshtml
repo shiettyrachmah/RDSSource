@@ -1,0 +1,93 @@
+﻿@model IEnumerable<WebSiram.Models.Role>
+
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Managemen Aplikasi</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Roles</a></li>
+                        <li class="breadcrumb-item active">Index</li>
+                    </ol>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                    @await Html.PartialAsync("_MenuSettings")
+                </div>
+                <!-- /.col -->
+
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="card-header p-2">
+                            <button type="button" class="btn btn-siram ml-3">Tambah Role</button>
+                        </div><!-- /.card-header -->
+                        <div class="card-body">
+                            <table id="example1" class="table table-bordered table-striped dataTable dtr-inline" aria-describedby="example1_info">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Role Name</th>
+                                        <th>Guard Name</th>
+                                        <th>Description</th>
+                                        <th>Status</th>
+                                        <th>Tanggal</th>
+                                        <th>Aksi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr class="odd">
+                                            <td class="dtr-control sorting_1" tabindex="0">@item.id</td>
+                                            <td>@item.roles_name</td>
+                                            <td>@item.guard_name</td>
+                                            <td>@item.description</td>
+                                            @{
+                                                string status = string.Empty;
+                                                if (@item.status == 1)
+                                                {
+                                                    status = "Aktif";
+                                                }
+                                                else
+                                                {
+                                                    status = "Tidak Aktif";
+                                                }
+                                            }
+                                            <td>@status</td>
+                                            <td>@item.created_at.ToString("dd-MM-yyyy")</td>
+                                            <td class="text-center"><a asp-controller="Users" asp-action="Edit" asp-route-id="@item.id"><i class="far fa-edit text-warning mr-2"></i></a><a href="#"><i class="far fa-trash-alt text-danger"></i></a></td>
+                                        </tr>
+                                    }
+                                </tbody>
+
+                            </table>
+
+                        </div><!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->

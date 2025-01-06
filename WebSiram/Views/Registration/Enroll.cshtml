@@ -1,0 +1,177 @@
+﻿@model IEnumerable<WebSiram.Models.User>
+
+@{
+    ViewData["Title"] = "Enroll Page";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Pemindaian Data</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Resgistrasi</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header border-transparent">
+                        <h3 class="card-title">Data Demografi</h3>
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                        <div class="card-body">
+                        <table class="pos-center">
+                            <tr>
+                                <td>
+                                    <div class="container-fluid">
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <div class="title-header">PROVINSI BANTEN</div>
+                                                <div class="title-header">KABUPATEN TANGERANG</div>
+                                            </div>
+                                            <div class="panel-content">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="form-group large">
+                                                            <div class="form-item-label nik nik-label"> NIK </div>
+                                                            <div class="form-item-separator nik-separator">:</div>
+                                                            <label class="form-item-field nik"> 3045463738394847472 </label>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="form-item-label"> Nama Lengkap </div>
+                                                            <div class="form-item-separator">:</div>
+                                                            <label class="form-item-field"> INDRA PRAKOSO </label>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="form-item-label"> Tempat/Tgl Lahir </div>
+                                                            <div class="form-item-separator">:</div>
+                                                            <label class="form-item-field"> Kendal, 25-08-1987 </label>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="form-item-label"> Jenis Kelamin </div>
+                                                            <div class="form-item-separator">:</div>
+                                                            <label class="form-item-field"> Laki-laki </label>
+                                                            <div class="form-item-label gol-darah"> Gol. Darah </div>
+                                                            <div class="form-item-separator">:</div>
+                                                            <label class="form-item-field"> A+ </label>
+                                                        </div>
+                                                        <div class="form-group-inner-outer">
+                                                            <div class="outer">
+                                                                <div class="form-item-label"> Alamat </div>
+                                                                <div class="form-item-separator">:</div>
+                                                                <label class="form-item-field"> BUMI INDAH THP 3 CEMPAKA 3 HP 16 </label>
+                                                            </div>
+                                                            <div class="inner">
+                                                                <div class="form-group">
+                                                                    <div class="form-item-label"> RT/RW </div>
+                                                                    <div class="form-item-separator">:</div>
+                                                                    <label class="form-item-field"> 005 / 008 </label>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <div class="form-item-label"> Kel/Desa </div>
+                                                                    <div class="form-item-separator">:</div>
+                                                                    <label class="form-item-field"> SUKAMANTRI </label>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <div class="form-item-label"> Kecamatan </div>
+                                                                    <div class="form-item-separator">:</div>
+                                                                    <label class="form-item-field"> PASAR KEMIS </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="form-item-label"> Agama </div>
+                                                            <div class="form-item-separator">:</div>
+                                                            <label class="form-item-field"> KATHOLIK </label>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="form-item-label"> Status Perkawinan </div>
+                                                            <div class="form-item-separator">:</div>
+                                                            <label class="form-item-field"> KAWIN </label>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="form-item-label"> Pekerjaan </div>
+                                                            <div class="form-item-separator">:</div>
+                                                            <label class="form-item-field"> BURUH </label>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="form-item-label"> Kewarganegaraan </div>
+                                                            <div class="form-item-separator">:</div>
+                                                            <label class="form-item-field"> WNI </label>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="form-item-label"> Masa Berlaku </div>
+                                                            <div class="form-item-separator">:</div>
+                                                            <label class="form-item-field"> - </label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        </div>
+
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-info">Pindai</button>
+                            <button type="button" class="btn btn-default float-right">Cancel</button>
+                        </div>
+
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Foto</h3>
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card-body p-0">
+
+                    </div>
+
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-info">Pindai</button>
+                        <button type="button" class="btn btn-primary float-right">Simpan</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+<!-- /.content -->

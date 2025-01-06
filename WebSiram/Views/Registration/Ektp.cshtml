@@ -1,0 +1,273 @@
+﻿<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type">
+    <link rel="stylesheet" href="css/result.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/ripple-button.css">
+    <title>Hasil Kirim Data</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 11pt;
+        }
+
+
+        table {
+            background: url("../assets/background/front-ktp.jpg") no-repeat;
+            width: 720px;
+        }
+
+        .pos-center {
+            margin: 0 auto;
+        }
+
+        textarea {
+            width: 11rem;
+            text-transform: uppercase;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        input.rt, input.rw {
+            width: 5.2rem;
+        }
+
+        input[type=text] {
+            text-transform: uppercase;
+        }
+
+        .required {
+            font-weight: bold;
+            color: red;
+            margin-bottom: 2rem;
+        }
+
+        .panel-heading {
+            padding: 1rem;
+        }
+
+        .container-fluid {
+            width: 100%;
+            /*padding-right: 0.75rem;*/
+            /*padding-left: 0.75rem;*/ margin-right: auto;
+            margin-left: auto;
+        }
+
+        .panel {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            margin-bottom: 1.5rem;
+            -webkit-transition: border 500ms ease-out;
+            transition: border 500ms ease-out;
+        }
+
+        .panel-content {
+            padding: 0.5rem 1rem;
+        }
+
+        .row {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -0.75rem;
+            /*margin-left: -0.75rem;*/
+        }
+
+        .col-12 {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .form-group {
+            clear: both;
+            /*margin-bottom: 0.4rem;*/
+            display: flex;
+        }
+
+        .form-group-inner-outer {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-item-label {
+            clear: both;
+            float: left;
+            display: table-cell;
+            vertical-align: top;
+            padding: 2px;
+            width: 160px;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .form-item-separator {
+            display: table-cell;
+            width: 1px;
+            vertical-align: top;
+            padding: 5px;
+        }
+
+        .form-item-field {
+            clear: right;
+            display: flex;
+            vertical-align: top;
+            padding: 5px;
+            text-align: left;
+        }
+
+        .title-header {
+            text-align: center;
+            font-weight: bold;
+            font-size: 17pt;
+        }
+
+        .inner {
+            padding-left: 10px;
+            margin-left: 10px;
+        }
+
+        .outer {
+            display: flex;
+        }
+
+        .gol-darah {
+            width: 90px !important;
+            margin-left: 6rem !important;
+        }
+
+        .foto-diri {
+            width: 182px;
+            height: 227px;
+            border: 1px solid black;
+            position: absolute;
+            right: 612px;
+            top: 130px;
+        }
+
+        .foto-diri-footer {
+            position: absolute;
+            right: 650px;
+            top: 360px;
+            text-align: center;
+        }
+
+        .nik {
+            font-family: Monospace;
+            font-size: 20pt;
+        }
+
+        .nik-separator {
+            padding: 15px;
+        }
+
+        .nik-label {
+            width: 120px
+        }
+
+    </style>
+</head>
+<body>
+    <table class="pos-center">
+        <tr>
+            <td>
+                <div class="container-fluid">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <div class="title-header">PROVINSI BANTEN</div>
+                            <div class="title-header">KABUPATEN TANGERANG</div>
+                        </div>
+                        <div class="panel-content">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group large">
+                                        <div class="form-item-label nik nik-label"> NIK </div>
+                                        <div class="form-item-separator nik-separator">:</div>
+                                        <label class="form-item-field nik"> 3045463738394847472 </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-item-label"> Nama Lengkap </div>
+                                        <div class="form-item-separator">:</div>
+                                        <label class="form-item-field"> INDRA PRAKOSO </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-item-label"> Tempat/Tgl Lahir </div>
+                                        <div class="form-item-separator">:</div>
+                                        <label class="form-item-field"> Kendal, 25-08-1987 </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-item-label"> Jenis Kelamin </div>
+                                        <div class="form-item-separator">:</div>
+                                        <label class="form-item-field"> Laki-laki </label>
+                                        <div class="form-item-label gol-darah"> Gol. Darah </div>
+                                        <div class="form-item-separator">:</div>
+                                        <label class="form-item-field"> A+ </label>
+                                    </div>
+                                    <div class="form-group-inner-outer">
+                                        <div class="outer">
+                                            <div class="form-item-label"> Alamat </div>
+                                            <div class="form-item-separator">:</div>
+                                            <label class="form-item-field"> BUMI INDAH THP 3 CEMPAKA 3 HP 16 </label>
+                                        </div>
+                                        <div class="inner">
+                                            <div class="form-group">
+                                                <div class="form-item-label"> RT/RW </div>
+                                                <div class="form-item-separator">:</div>
+                                                <label class="form-item-field"> 005 / 008 </label>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="form-item-label"> Kel/Desa </div>
+                                                <div class="form-item-separator">:</div>
+                                                <label class="form-item-field"> SUKAMANTRI </label>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="form-item-label"> Kecamatan </div>
+                                                <div class="form-item-separator">:</div>
+                                                <label class="form-item-field"> PASAR KEMIS </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-item-label"> Agama </div>
+                                        <div class="form-item-separator">:</div>
+                                        <label class="form-item-field"> KATHOLIK </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-item-label"> Status Perkawinan </div>
+                                        <div class="form-item-separator">:</div>
+                                        <label class="form-item-field"> KAWIN </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-item-label"> Pekerjaan </div>
+                                        <div class="form-item-separator">:</div>
+                                        <label class="form-item-field"> BURUH </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-item-label"> Kewarganegaraan </div>
+                                        <div class="form-item-separator">:</div>
+                                        <label class="form-item-field"> WNI </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-item-label"> Masa Berlaku </div>
+                                        <div class="form-item-separator">:</div>
+                                        <label class="form-item-field"> - </label>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

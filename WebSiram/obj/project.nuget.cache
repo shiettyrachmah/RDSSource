@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "l2mbWSC751Q=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sra\\Source\\Repos\\RDSSource\\WebSiram\\WebSiram.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sra\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

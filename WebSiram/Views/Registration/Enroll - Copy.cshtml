@@ -1,0 +1,196 @@
+﻿@model IEnumerable<WebSiram.Models.User>
+
+@{
+    ViewData["Title"] = "Enroll Page";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Pemindaian Data</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Resgistrasi</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header border-transparent">
+                        <h3 class="card-title">Data Demografi</h3>
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <form class="form-horizontal">
+                        <div class="card-body">
+                            <div class="form-group row">
+                                <label for="nik" class="col-sm-2 col-form-label">NIK</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="nik" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="nama" class="col-sm-2 col-form-label">Nama</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="nama" placeholder="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group row">
+                                        <label for="tempat_lahir" class="col-sm-4 col-form-label">Tempat Lahir</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" id="tempat_lahir" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group row">
+                                        <label for="tanggal_lahir" class="col-sm-4 col-form-label">Tanggal Lahir</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" id="tanggal_lahir" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group row">
+                                        <label for="jenis_kelamin" class="col-sm-4 col-form-label">Jenis Kelamin</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" id="jenis_kelamin" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group row">
+                                        <label for="gol_darah" class="col-sm-4 col-form-label">Gol. Darah</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" id="gol_darah" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group row">
+                                <label for="alamat" class="col-sm-2 col-form-label">Alamat</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="alamat" placeholder="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group row">
+                                        <label for="rt" class="col-sm-4 col-form-label">RT</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" id="rt" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group row">
+                                        <label for="rw" class="col-sm-4 col-form-label">RW</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" id="rw" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="desa" class="col-sm-2 col-form-label">Kel/Desa</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="desa" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="kecamatan" class="col-sm-2 col-form-label">Kecamatan</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="kecamatan" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="agama" class="col-sm-2 col-form-label">Agama</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="agama" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="status_perkawinan" class="col-sm-2 col-form-label">Status Perkawinan</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="status_perkawinan" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="pekerjaan" class="col-sm-2 col-form-label">Pekerjaan</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="pekerjaan" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="kewarganegaraan" class="col-sm-2 col-form-label">Kewarganegaraan</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="kewarganegaraan" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-info">Pindai</button>
+                            <button type="button" class="btn btn-default float-right">Cancel</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Foto</h3>
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card-body p-0">
+
+                    </div>
+
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-info">Pindai</button>
+                        <button type="button" class="btn btn-primary float-right">Simpan</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+<!-- /.content -->

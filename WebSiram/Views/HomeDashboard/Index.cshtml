@@ -1,0 +1,465 @@
+﻿@model IEnumerable<WebSiram.Models.User>
+
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>OTMIL BANDUNG</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">General Form</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="info-box">
+                    <span class="info-box-icon bg-info elevation-1"><i class="fas fa-cog"></i></span>
+                    <div class="info-box-content">
+                        <span class="info-box-text">Registrasi</span>
+                        <span class="info-box-number">10</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info-box mb-3">
+                    <span class="info-box-icon bg-warning elevation-1"><i class="far fa-address-card text-white"></i></span>
+                    <div class="info-box-content">
+                        <span class="info-box-text">SILAKARA</span>
+                        <span class="info-box-number">6</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix hidden-md-up"></div>
+
+            <div class="col-md-3">
+                <div class="info-box mb-3">
+                    <span class="info-box-icon bg-success elevation-1"><i class="fas fa-balance-scale"></i></span>
+                    <div class="info-box-content">
+                        <span class="info-box-text">DILMIL</span>
+                        <span class="info-box-number">2</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info-box mb-3">
+                    <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-users"></i></span>
+                    <div class="info-box-content">
+                        <span class="info-box-text">LEMASMIL</span>
+                        <span class="info-box-number">5</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header border-transparent">
+                        <h3 class="card-title">Perubahan status Perkara</h3>
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table m-0">
+                                <thead>
+                                    <tr>
+                                        <th>Nama</th>
+                                        <th>Kasus</th>
+                                        <th>Keterangan</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="products-list product-list-in-card pl-2 pr-2">
+                                            <div class="item">
+                                                <div class="product-img">
+                                                    <img src="~/adminlte/dist/img/tni.jpeg" alt="Product Image" class="img-size-50">
+                                                </div>
+                                                <div class="product-info">
+                                                    <a href="javascript:void(0)" class="product-title">
+                                                        Mayor Nanda
+                                                    </a>
+                                                    <span class="product-description">
+                                                        20240716001
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="align-middle">
+                                            <span class="product-description">
+                                                Penggelapan
+                                            </span>
+                                        </td>
+                                        <td class="align-middle">
+                                            <span class="product-description">
+                                                2024-07-16 14:41:00
+                                            </span>
+                                            <div class="sparkbar" data-color="#00a65a" data-height="20">Berkas di terima di OTMIL</div>
+                                        </td>
+                                        <td class="align-middle">
+                                            <span class="badge badge-success">Shipped</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="products-list product-list-in-card pl-2 pr-2">
+                                            <div class="item">
+                                                <div class="product-img">
+                                                    <img src="~/adminlte/dist/img/tni.jpeg" alt="Product Image" class="img-size-50">
+                                                </div>
+                                                <div class="product-info">
+                                                    <a href="javascript:void(0)" class="product-title">
+                                                        Kapten Modotz
+                                                    </a>
+                                                    <span class="product-description">
+                                                        20240716001
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="align-middle">
+                                            <span class="product-description">
+                                                Narkoba
+                                            </span>
+                                        </td>
+                                        <td class="align-middle">
+                                            <span class="product-description">
+                                                2024-07-16 14:41:00
+                                            </span>
+                                            <div class="sparkbar" data-color="#00a65a" data-height="20">Penundaan sidang ke 1</div>
+                                        </td>
+                                        <td class="align-middle"><span class="badge badge-warning">Pending</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="products-list product-list-in-card pl-2 pr-2">
+                                            <div class="item">
+                                                <div class="product-img">
+                                                    <img src="~/adminlte/dist/img/tni.jpeg" alt="Product Image" class="img-size-50">
+                                                </div>
+                                                <div class="product-info">
+                                                    <a href="javascript:void(0)" class="product-title">
+                                                        Brigadir Gusti
+                                                    </a>
+                                                    <span class="product-description">
+                                                        20240716001
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="align-middle">
+                                            <span class="product-description">
+                                                Asusila
+                                            </span>
+                                        </td>
+                                        <td class="align-middle">
+                                            <span class="product-description">
+                                                2024-07-16 14:41:00
+                                            </span>
+                                            <div class="sparkbar" data-color="#00a65a" data-height="20">Masuk Lemasmil Cimahi</div>
+                                        </td>
+                                        <td class="align-middle"><span class="badge badge-danger">Delivered</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="products-list product-list-in-card pl-2 pr-2">
+                                            <div class="item">
+                                                <div class="product-img">
+                                                    <img src="~/adminlte/dist/img/tni.jpeg" alt="Product Image" class="img-size-50">
+                                                </div>
+                                                <div class="product-info">
+                                                    <a href="javascript:void(0)" class="product-title">
+                                                        Mayjen Eldwin
+                                                    </a>
+                                                    <span class="product-description">
+                                                        20240716001
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="align-middle">
+                                            <span class="product-description">
+                                                Judi Online
+                                            </span>
+                                        </td>
+                                        <td class="align-middle">
+                                            <span class="product-description">
+                                                2024-07-16 14:41:00
+                                            </span>
+                                            <div class="sparkbar" data-color="#00a65a" data-height="20">Penyidikan berkas perkara</div>
+                                        </td>
+                                        <td class="align-middle"><span class="badge badge-info">Registrasi</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="products-list product-list-in-card pl-2 pr-2">
+                                            <div class="item">
+                                                <div class="product-img">
+                                                    <img src="~/adminlte/dist/img/tni.jpeg" alt="Product Image" class="img-size-50">
+                                                </div>
+                                                <div class="product-info">
+                                                    <a href="javascript:void(0)" class="product-title">
+                                                        Brigadir Binto
+                                                    </a>
+                                                    <span class="product-description">
+                                                        20240716001
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="align-middle">
+                                            <span class="product-description">
+                                                Penyelundupan
+                                            </span>
+                                        </td>
+                                        <td class="align-middle">
+                                            <span class="product-description">
+                                                2024-07-16 14:41:00
+                                            </span>
+                                            <div class="sparkbar" data-color="#00a65a" data-height="20">Sidang Ulang ke 3</div>
+                                        </td>
+                                        <td class="align-middle"><span class="badge badge-warning">Pending</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="javascript:void(0)" class="uppercase">Lihat semua pemebritahuan</a>
+                    </div>
+
+                    @* <div class="card-footer clearfix">
+                    <a href="javascript:void(0)" class="btn btn-sm btn-info float-left">Place New Order</a>
+                    <a href="javascript:void(0)" class="btn btn-sm btn-secondary float-right">View All Orders</a>
+                    </div> *@
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Persetujuan</h3>
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card-body p-0">
+                        <ul class="products-list product-list-in-card pl-2 pr-2">
+                            <li class="item">
+                                <div class="product-img">
+                                    <img src="~/adminlte/dist/img/email.png" alt="Product Image" class="img-size-50">
+                                </div>
+                                <div class="product-info">
+                                    <a href="javascript:void(0)" class="product-title">
+                                        Mayor Nanda
+                                        <span class="badge badge-warning float-right">Detail</span>
+                                    </a>
+                                    <span class="product-description">
+                                        Pelimpahan berkas perkara.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li class="item">
+                                <div class="product-img">
+                                    <img src="~/adminlte/dist/img/email.png" alt="Product Image" class="img-size-50">
+                                </div>
+                                <div class="product-info">
+                                    <a href="javascript:void(0)" class="product-title">
+                                        Mayjen Eldwin
+                                        <span class="badge badge-warning float-right">Detail</span>
+                                    </a>
+                                    <span class="product-description">
+                                        Penyidikan berkas perkara
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li class="item">
+                                <div class="product-img">
+                                    <img src="~/adminlte/dist/img/email.png" alt="Product Image" class="img-size-50">
+                                </div>
+                                <div class="product-info">
+                                    <a href="javascript:void(0)" class="product-title">
+                                        Brigadir Binto
+                                        <span class="badge badge-warning float-right">Detail</span>
+                                    </a>
+                                    <span class="product-description">
+                                        Penetapan pasal.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li class="item">
+                                <div class="product-img">
+                                    <img src="~/adminlte/dist/img/email.png" alt="Product Image" class="img-size-50">
+                                </div>
+                                <div class="product-info">
+                                    <a href="javascript:void(0)" class="product-title">
+                                        Letkol Yoga
+                                        <span class="badge badge-warning float-right">Detail</span>
+                                    </a>
+                                    <span class="product-description">
+                                        Persetujan pindah masmil.
+                                    </span>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="card-footer text-center">
+                        <a href="javascript:void(0)" class="uppercase">Lihat semua persetujuan</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+<!-- /.content -->
+
+<div id="modalRegistration" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col-md-6">
+                    <table class="pos-center">
+                        <tr>
+                            <td>
+                                <div class="container-fluid">
+                                    <div class="panel">
+                                        <div class="panel-heading">
+                                            <div class="title-header">PROVINSI BANTEN</div>
+                                            <div class="title-header">KABUPATEN TANGERANG</div>
+                                        </div>
+                                        <div class="panel-content">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group large">
+                                                        <div class="form-item-label nik nik-label"> NIK </div>
+                                                        <div class="form-item-separator nik-separator">:</div>
+                                                        <label class="form-item-field nik"> <?php echo $nik; ?> </label>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="form-item-label"> Nama Lengkap </div>
+                                                        <div class="form-item-separator">:</div>
+                                                        <label class="form-item-field"> <?php echo $nama_lengkap; ?> </label>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="form-item-label"> Tempat/Tgl Lahir </div>
+                                                        <div class="form-item-separator">:</div>
+                                                        <label class="form-item-field"> <?php echo $tl; ?>, <?php echo $tgl_format; ?> </label>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="form-item-label"> Jenis Kelamin </div>
+                                                        <div class="form-item-separator">:</div>
+                                                        <label class="form-item-field"> <?php echo $jeniskel; ?> </label>
+                                                        <div class="form-item-label gol-darah"> Gol. Darah </div>
+                                                        <div class="form-item-separator">:</div>
+                                                        <label class="form-item-field"> <?php echo $darah; ?> </label>
+                                                    </div>
+                                                    <div class="form-group-inner-outer">
+                                                        <div class="outer">
+                                                            <div class="form-item-label"> Alamat </div>
+                                                            <div class="form-item-separator">:</div>
+                                                            <label class="form-item-field"> <?php echo $alamat; ?> </label>
+                                                        </div>
+                                                        <div class="inner">
+                                                            <div class="form-group">
+                                                                <div class="form-item-label"> RT/RW </div>
+                                                                <div class="form-item-separator">:</div>
+                                                                <label class="form-item-field"> <?php echo $rt; ?> / <?php echo $rw; ?> </label>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <div class="form-item-label"> Kel/Desa </div>
+                                                                <div class="form-item-separator">:</div>
+                                                                <label class="form-item-field"> <?php echo $desa; ?> </label>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <div class="form-item-label"> Kecamatan </div>
+                                                                <div class="form-item-separator">:</div>
+                                                                <label class="form-item-field"> <?php echo $kecamatan; ?> </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="form-item-label"> Agama </div>
+                                                        <div class="form-item-separator">:</div>
+                                                        <label class="form-item-field"> <?php echo $agama; ?> </label>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="form-item-label"> Status Perkawinan </div>
+                                                        <div class="form-item-separator">:</div>
+                                                        <label class="form-item-field"> <?php echo $status; ?> </label>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="form-item-label"> Pekerjaan </div>
+                                                        <div class="form-item-separator">:</div>
+                                                        <label class="form-item-field"> <?php echo $pekerjaan; ?> </label>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="form-item-label"> Kewarganegaraan </div>
+                                                        <div class="form-item-separator">:</div>
+                                                        <label class="form-item-field"> <?php echo $kewarganegaraan; ?> </label>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="form-item-label"> Masa Berlaku </div>
+                                                        <div class="form-item-separator">:</div>
+                                                        <label class="form-item-field"> <?php echo $masa_berlaku; ?> </label>
+                                                    </div>
+                                                    <div class="button-area button-area-result">
+                                                        <a href="form.php">
+                                                            <button class="for_ripple btn" value="HOME"> HOME </button>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<!-- /.content-wrapper -->

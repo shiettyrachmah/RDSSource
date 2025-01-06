@@ -1,0 +1,434 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\controllers\\divisicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:controllers\\divisicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\apisiram.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:apisiram.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\controllers\\userrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:controllers\\userrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\controllers\\usergroupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:controllers\\usergroupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\controllers\\personelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:controllers\\personelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\controllers\\pangkatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:controllers\\pangkatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\controllers\\komandocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:controllers\\komandocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\controllers\\jabatancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:controllers\\jabatancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\controllers\\demographicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:controllers\\demographicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\controllers\\activitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:controllers\\activitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|c:\\users\\sra\\source\\repos\\rdssource\\apisiram\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF485E06-5A5A-435D-81AC-6BD233C46BCF}|ApiSiram.csproj|solutionrelative:appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\RDS\\SIRAM\\WebSiram\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\RDS\\SIRAM\\WebSiram\\AppSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\RDS\\SIRAM\\WebSiram\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\RDS\\SIRAM\\WebSiram\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\RDS\\SIRAM\\WebSiram\\WebSiram.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 328,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:26:05.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiSiram.csproj",
+              "DocumentMoniker": "C:\\Users\\sra\\Source\\Repos\\RDSSource\\ApiSiram\\ApiSiram.csproj",
+              "RelativeDocumentMoniker": "ApiSiram.csproj",
+              "ToolTip": "C:\\Users\\sra\\Source\\Repos\\RDSSource\\ApiSiram\\ApiSiram.csproj",
+              "RelativeToolTip": "ApiSiram.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowBIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-06T04:22:29.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DivisiController.cs",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\DivisiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DivisiController.cs",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\DivisiController.cs",
+              "RelativeToolTip": "Controllers\\DivisiController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:22:18.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRolesController.cs",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\UserRolesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserRolesController.cs",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\UserRolesController.cs",
+              "RelativeToolTip": "Controllers\\UserRolesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:25:58.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserGroupsController.cs",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\UserGroupsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserGroupsController.cs",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\UserGroupsController.cs",
+              "RelativeToolTip": "Controllers\\UserGroupsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:25:55.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "Controllers\\RolesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:25:52.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PersonelController.cs",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\PersonelController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PersonelController.cs",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\PersonelController.cs",
+              "RelativeToolTip": "Controllers\\PersonelController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T09:25:19.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:26:03.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PangkatController.cs",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\PangkatController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PangkatController.cs",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\PangkatController.cs",
+              "RelativeToolTip": "Controllers\\PangkatController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:25:45.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "KomandoController.cs",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\KomandoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KomandoController.cs",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\KomandoController.cs",
+              "RelativeToolTip": "Controllers\\KomandoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:25:42.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JabatanController.cs",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\JabatanController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JabatanController.cs",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\JabatanController.cs",
+              "RelativeToolTip": "Controllers\\JabatanController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:25:23.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IdentityController.cs",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\IdentityController.cs",
+              "RelativeDocumentMoniker": "Controllers\\IdentityController.cs",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\IdentityController.cs",
+              "RelativeToolTip": "Controllers\\IdentityController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:25:19.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GroupsController.cs",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\GroupsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GroupsController.cs",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\GroupsController.cs",
+              "RelativeToolTip": "Controllers\\GroupsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:25:13.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DemographicsController.cs",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\DemographicsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DemographicsController.cs",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\DemographicsController.cs",
+              "RelativeToolTip": "Controllers\\DemographicsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:25:33.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:25:32.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ActivityController.cs",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\ActivityController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ActivityController.cs",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Controllers\\ActivityController.cs",
+              "RelativeToolTip": "Controllers\\ActivityController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:25:27.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwBMAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:20:21.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\RDS\\SIRAM\\WebSiram\\appsettings.json",
+              "ToolTip": "D:\\RDS\\SIRAM\\WebSiram\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-06T04:34:20.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-06T04:14:06.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "D:\\RDS\\SIRAM\\WebSiram\\AppSettings.cs",
+              "ToolTip": "D:\\RDS\\SIRAM\\WebSiram\\AppSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:34:17.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\RDS\\SIRAM\\WebSiram\\appsettings.Development.json",
+              "ToolTip": "D:\\RDS\\SIRAM\\WebSiram\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-06T04:34:27.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\RDS\\SIRAM\\WebSiram\\Program.cs",
+              "ToolTip": "D:\\RDS\\SIRAM\\WebSiram\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:34:34.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "WebSiram.csproj",
+              "DocumentMoniker": "D:\\RDS\\SIRAM\\WebSiram\\WebSiram.csproj",
+              "ToolTip": "D:\\RDS\\SIRAM\\WebSiram\\WebSiram.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-06T04:41:13.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-06T04:14:29.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\AppSettings.cs",
+              "RelativeDocumentMoniker": "AppSettings.cs",
+              "ToolTip": "C:\\Users\\sra\\source\\repos\\RDSSource\\ApiSiram\\AppSettings.cs",
+              "RelativeToolTip": "AppSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:14:04.793Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 192,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
