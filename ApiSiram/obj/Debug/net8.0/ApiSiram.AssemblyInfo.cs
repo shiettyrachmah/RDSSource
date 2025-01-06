@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiSiram")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb6bdc7aae37750549a2c390dc0dcd31be2c4b1a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40de9227d591a70ae7dc0c37e4be35e25fd9a5bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiSiram")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiSiram")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

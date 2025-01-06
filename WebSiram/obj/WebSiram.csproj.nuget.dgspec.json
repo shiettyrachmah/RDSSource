@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sra\\Source\\Repos\\RDSSource\\WebSiram\\WebSiram.csproj": {}
+    "C:\\Users\\sra\\source\\repos\\RDSSource\\WebSiram\\WebSiram.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sra\\Source\\Repos\\RDSSource\\WebSiram\\WebSiram.csproj": {
+    "C:\\Users\\sra\\source\\repos\\RDSSource\\WebSiram\\WebSiram.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sra\\Source\\Repos\\RDSSource\\WebSiram\\WebSiram.csproj",
+        "projectUniqueName": "C:\\Users\\sra\\source\\repos\\RDSSource\\WebSiram\\WebSiram.csproj",
         "projectName": "WebSiram",
-        "projectPath": "C:\\Users\\sra\\Source\\Repos\\RDSSource\\WebSiram\\WebSiram.csproj",
+        "projectPath": "C:\\Users\\sra\\source\\repos\\RDSSource\\WebSiram\\WebSiram.csproj",
         "packagesPath": "C:\\Users\\sra\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sra\\Source\\Repos\\RDSSource\\WebSiram\\obj\\",
         "projectStyle": "PackageReference",
